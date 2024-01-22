@@ -1,8 +1,9 @@
-import { Card, CardBody } from "react-bootstrap"
 import { useLocation, useNavigate } from "react-router-dom"
+import { Card, CardBody } from "react-bootstrap"
+import { FaArrowCircleLeft } from "react-icons/fa"
+
 import { Header } from "../components/Header"
 import { nameConverter } from "../utils/nameConverter"
-import { FaArrowCircleLeft } from "react-icons/fa"
 
 export interface Ability {
   name: string

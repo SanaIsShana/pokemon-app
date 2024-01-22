@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useState } from "react"
-import { Card } from "react-bootstrap"
-import { PokemonDetailProps } from "../pages/PokemonDetail"
-import { FaArrowCircleRight } from "react-icons/fa"
 import { useNavigate } from "react-router-dom"
+import { Card } from "react-bootstrap"
+import { FaArrowCircleRight } from "react-icons/fa"
+
+import { PokemonDetailProps } from "../pages/PokemonDetail"
 import { nameConverter } from "../utils/nameConverter"
 
 interface PokemonProps {

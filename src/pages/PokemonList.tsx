@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useState } from "react"
+import { Col, Container, Row } from "react-bootstrap"
+
 import { Pokemon } from "../components/Pokemon"
 import { PageNavigate } from "../components/PageNavigate"
-import { Col, Container, Row } from "react-bootstrap"
 import { Header } from "../components/Header"
 
 export const PokemonList = () => {
